@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.utadeo.EasyJob.MainActivity" >
+
+
+    <item
+        android:id="@+id/menu"
+        android:title="@string/menu"
+        android:orderInCategory="1"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_principal"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="@string/action_principal"
+                app:showAsAction="always|withText" />
+
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_buscar"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="always|collapseActionView"
+        android:title="@string/buscar" />
+
+</menu>
